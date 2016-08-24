@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tv_question_score"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:width="40dp"
+        android:textColor="#777777"
+        android:layout_marginRight="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tv_question_title"
+        android:layout_alignTop="@id/tv_question_score"
+        android:layout_toRightOf="@id/tv_question_score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/tv_question_author"
+        android:layout_below="@+id/tv_question_title"
+        android:layout_alignLeft="@id/tv_question_title" />
+</RelativeLayout>

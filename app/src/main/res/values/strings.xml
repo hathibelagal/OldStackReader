@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OldStackReader</string>
+
+    <string-array name="sites">
+        <item>Android Enthusiasts</item>
+        <item>Ask Different</item>
+        <item>Ask Ubuntu</item>
+        <item>Biology</item>
+        <item>English Language</item>
+        <item>Raspberry Pi</item>
+        <item>Server Fault</item>
+        <item>Space Exploration</item>
+        <item>Stack Overflow</item>
+        <item>Super User</item>
+        <item>Web Applications</item>
+    </string-array>
+</resources>
